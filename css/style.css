@@ -1,4 +1,32 @@
 
 header{
 	background: url("../img/bg.png");
+	height: 745px;
+	width: 100%;
+}
+header a{
+	display: line;
+	color:white;
+	text-align: right;
+}
+header a:nth-child(1){
+	background-color: black;
+}
+h1, h2, h3, h5, p{
+	text-align: center;
+}
+img{
+	items-align:center;
+}
+.info{
+	background-color:#232324;
+}
+.info h5{
+	color:white;
+}
+.info p{
+	color:#cf4436;
+}
+.team{
+	background-color:#6cc372;
 }
