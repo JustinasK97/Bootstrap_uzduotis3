@@ -43,3 +43,6 @@ h1, h2, h3, h5, p{
 	display: inline-block;
 	background-color: white;
 }
+.view{
+	background-color:#f0f0f0;
+}
