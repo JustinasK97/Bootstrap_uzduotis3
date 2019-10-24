@@ -9,14 +9,8 @@ header a{
 	color:white;
 	text-align: right;
 }
-header a:nth-child(1){
-	background-color: black;
-}
 h1, h2, h3, h5, p{
 	text-align: center;
-}
-img{
-	items-align:center;
 }
 .info{
 	background-color:#232324;
@@ -27,6 +21,25 @@ img{
 .info p{
 	color:#cf4436;
 }
+.infinity.png{
+	align-items:center;
+}
 .team{
 	background-color:#6cc372;
+}
+.col-md-profile:nth-child(1){
+	display: inline-block;
+	background-color: white;
+}
+.col-md-profile:nth-child(2){
+	display: inline-block;
+	background-color: white;
+}
+.col-md-profile:nth-child(3){
+	display: inline-block;
+	background-color: white;
+}
+.col-md-profile:nth-child(4){
+	display: inline-block;
+	background-color: white;
 }
