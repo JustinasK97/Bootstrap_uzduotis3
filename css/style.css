@@ -1,4 +1,6 @@
-
+.container{
+	width: 75%;
+}
 header{
 	background: url("../img/bg.png");
 	height: 745px;
@@ -9,8 +11,21 @@ header a{
 	color:white;
 	text-align: right;
 }
+header p{
+	color:white;
+	font-size: 0.8em;
+}
 h1, h2, h3, h5, p{
 	text-align: center;
+}
+h4{
+	color: white;
+}
+.navbar-nav{
+	flex-direction:row;
+}
+.col-md-8-shape{
+	height: 300px;
 }
 .info{
 	background-color:#232324;
@@ -26,6 +41,11 @@ h1, h2, h3, h5, p{
 }
 .team{
 	background-color:#6cc372;
+	justify-content:space-around;
+}
+.col-md-profile{
+	display: flex;
+	align-items:center;
 }
 .col-md-profile:nth-child(1){
 	display: inline-block;
