@@ -1,10 +1,13 @@
-.container{
-	width: 75%;
+.container-fluid{
+	
 }
-header{
-	background: url("../img/bg.png");
-	height: 745px;
-	width: 100%;
+.container{
+	width: 80%;
+}
+.nav{
+	background: url(../img/bg0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 header a{
 	display: line;
@@ -18,51 +21,86 @@ header p{
 h1, h2, h3, h5, p{
 	text-align: center;
 }
+h1{
+	color: white;
+}
+h3{
+	color:white;
+}
 h4{
 	color: white;
 }
 .navbar-nav{
 	flex-direction:row;
 }
-.col-md-8-shape{
-	height: 300px;
-}
 .info{
 	background-color:#232324;
+	text-align: center;
 }
-.info h5{
+.info h5, h2{
 	color:white;
 }
 .info p{
 	color:#cf4436;
 }
-.infinity.png{
-	align-items:center;
-}
 .team{
 	background-color:#6cc372;
-	justify-content:space-around;
+}
+.team h5{
+	color:#6cc372;
 }
 .col-md-profile{
 	display: flex;
 	align-items:center;
 }
-.col-md-profile:nth-child(1){
-	display: inline-block;
+.col-md-3-profile p{
+	color:#e13d2f;
+}
+.col-md-3-profile:nth-child(1){
+	display:block;
 	background-color: white;
 }
-.col-md-profile:nth-child(2){
-	display: inline-block;
+.col-md-3-profile:nth-child(2){
+	display: block;
 	background-color: white;
 }
-.col-md-profile:nth-child(3){
-	display: inline-block;
+.col-md-3-profile:nth-child(3){
+	display: block;
 	background-color: white;
 }
-.col-md-profile:nth-child(4){
-	display: inline-block;
+.col-md-3-profile:nth-child(4){
+	display:block;
 	background-color: white;
+}
+.team i{
+	color:white;
+	background-color:#6cc372;
+	font-size: 2em;
+}
+.team a{
+	color:white;
+	background-color:#6cc372;
+	font-size:1.6em;
 }
 .view{
 	background-color:#f0f0f0;
+}
+.view h2{
+	color:#616161;
+}
+.view p{
+	color:#6cc372;
+}
+.boxes{
+	display: block;
+	background-color: white;
+}
+span:nth-child(1){
+	color:black;
+}
+span:nth-child(2){
+	color:#eb4f4e;
+}
+span:nth-child(3){
+	color:black;
 }
