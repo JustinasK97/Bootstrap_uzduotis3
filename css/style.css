@@ -20,6 +20,7 @@ header p{
 }
 h1, h2, h3, h5{
 	text-align: center;
+	padding: 5px 5px 5px 5px;
 }
 h1{
 	color: white;
@@ -48,9 +49,15 @@ h4{
 }
 .team{
 	background-color:#6cc372;
-	height: 450px;
 	justify-content: space-evenly;
-}	
+}
+.team p{
+	text-align: center;
+}
+.team img{
+	width: 220px;
+	height: 300px;
+}
 .view{
 	background-color:#f0f0f0;
 }
@@ -59,20 +66,30 @@ h4{
 }
 .view p{
 	color:#6cc372;
+	text-align: center;
+}
+.ellipse{
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .boxes{
 	display: block;
 	background-color: #f0f0f0;
 }
-span:nth-child(1){
-	color:black;
+.boxes{
+	flex-direction:flex-end;
 }
-span:nth-child(2){
-	color:#eb4f4e;
+.payment{
+	background-color: white;
 }
-span:nth-child(3){
-	color:black;
+.payment p{
+	text-align: center;
 }
 .tweets{
 	background-color:#eb4f4e;
+}
+.location{
+	background: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
