@@ -18,7 +18,7 @@ header p{
 	color:white;
 	font-size: 0.8em;
 }
-h1, h2, h3, h5, p{
+h1, h2, h3, h5{
 	text-align: center;
 }
 h1{
@@ -33,6 +33,9 @@ h4{
 .navbar-nav{
 	flex-direction:row;
 }
+.header-img{
+	background: url(../img/bg1.png);
+}
 .info{
 	background-color:#232324;
 	text-align: center;
@@ -45,43 +48,9 @@ h4{
 }
 .team{
 	background-color:#6cc372;
-}
-.team h5{
-	color:#6cc372;
-}
-.col-md-profile{
-	display: flex;
-	align-items:center;
-}
-.col-md-3-profile p{
-	color:#e13d2f;
-}
-.col-md-3-profile:nth-child(1){
-	display:block;
-	background-color: white;
-}
-.col-md-3-profile:nth-child(2){
-	display: block;
-	background-color: white;
-}
-.col-md-3-profile:nth-child(3){
-	display: block;
-	background-color: white;
-}
-.col-md-3-profile:nth-child(4){
-	display:block;
-	background-color: white;
-}
-.team i{
-	color:white;
-	background-color:#6cc372;
-	font-size: 2em;
-}
-.team a{
-	color:white;
-	background-color:#6cc372;
-	font-size:1.6em;
-}
+	height: 450px;
+	justify-content: space-evenly;
+}	
 .view{
 	background-color:#f0f0f0;
 }
@@ -93,7 +62,7 @@ h4{
 }
 .boxes{
 	display: block;
-	background-color: white;
+	background-color: #f0f0f0;
 }
 span:nth-child(1){
 	color:black;
@@ -103,4 +72,7 @@ span:nth-child(2){
 }
 span:nth-child(3){
 	color:black;
+}
+.tweets{
+	background-color:#eb4f4e;
 }
